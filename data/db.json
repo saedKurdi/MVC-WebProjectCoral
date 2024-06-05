@@ -1,0 +1,172 @@
+{
+  "all-products": [
+    {
+      "path": "./src/assets/images/product_images/jogger1.png",
+      "fullname": "Adicolor Classics Joggers",
+      "type": "Dress",
+      "price": "$63.85",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/bag1.png",
+      "fullname": "Nike Sportswear Futura Luxe",
+      "type": "Bag",
+      "price": "$130.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/scarf1.png",
+      "fullname": "Geometric print Scarf",
+      "type": "scarf",
+      "price": "$53.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/hoodie1.png",
+      "fullname": "Yellow Reserved Hoodie",
+      "type": "Dress",
+      "price": "$155.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/dress1.png",
+      "fullname": "Basic Dress Green",
+      "type": "Dress",
+      "price": "$236.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/shoe1.png",
+      "fullname": "Nike Air Zoom Pegasus",
+      "type": "Shoe",
+      "price": "$198.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/miler1.png",
+      "fullname": "Nike Repel Miler",
+      "type": "Dress",
+      "price": "$120.50",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/glass1.png",
+      "fullname": "Nike Sportswear Futura Luxe",
+      "type": "Glasses",
+      "price": "$160.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt1.jpg",
+      "fullname": "Adidas Originals Graphic Tee",
+      "type": "T-Shirt",
+      "price": "$30.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt2.jpg",
+      "fullname": "Puma Essentials Logo Tee",
+      "type": "T-Shirt",
+      "price": "$25.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt4.jpeg",
+      "fullname": "Under Armour Tech 2.0",
+      "type": "T-Shirt",
+      "price": "$35.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt5.jpeg",
+      "fullname": "Nike Dri-FIT Legend",
+      "type": "T-Shirt",
+      "price": "$28.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt6.jpeg",
+      "fullname": "Reebok Classics Vector Tee",
+      "type": "T-Shirt",
+      "price": "$32.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt7.jpeg",
+      "fullname": "Champion Powerblend Tee",
+      "type": "T-Shirt",
+      "price": "$22.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt8.jpeg",
+      "fullname": "New Balance Essentials Stacked",
+      "type": "T-Shirt",
+      "price": "$27.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/tShirts/t-shirt9.jpeg",
+      "fullname": "Fila Heritage Graphic Tee",
+      "type": "T-Shirt",
+      "price": "$26.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/hoodies/hoodie1.jpg",
+      "fullname": "Nike Sportswear Club Fleece Hoodie",
+      "type": "Hoodie",
+      "price": "$60.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/hoodies/hoodie2.jpeg",
+      "fullname": "Adidas Essentials Fleece Hoodie",
+      "type": "Hoodie",
+      "price": "$55.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/hoodies/hoodie3.jpeg",
+      "fullname": "Under Armour Rival Fleece Hoodie",
+      "type": "Hoodie",
+      "price": "$65.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/hoodies/hoodie5.jpg",
+      "fullname": "Champion Powerblend Hoodie",
+      "type": "Hoodie",
+      "price": "$50.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/jackets/jacket1.jpg",
+      "fullname": "The North Face Resolve 2 Jacket",
+      "type": "Jacket",
+      "price": "$90.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/jackets/jacket2.jpg",
+      "fullname": "Columbia Watertight II Jacket",
+      "type": "Jacket",
+      "price": "$80.00",
+      "sale": ""
+    },
+    {
+      "path": "./src/assets/images/product_images/jackets/jacket3.jpg",
+      "fullname": "Patagonia Torrentshell 3L Jacket",
+      "type": "Jacket",
+      "price": "$130.00",
+      "sale": "sale"
+    },
+    {
+      "path": "./src/assets/images/product_images/jackets/jacket5.jpg",
+      "fullname": "Arc'teryx Beta LT Jacket",
+      "type": "Jacket",
+      "price": "$400.00",
+      "sale": ""
+    }
+  ]
+}

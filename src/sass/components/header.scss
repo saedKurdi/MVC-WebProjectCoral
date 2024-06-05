@@ -1,0 +1,294 @@
+@import "../utils/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: $white-shade;
+  padding: 0px 160px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0;
+  }
+
+  &__logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  &__account-shopping {
+    display: flex;
+    gap: 55px;
+  }
+
+  #account-link,
+  #cart-link {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+  }
+
+  &__links {
+    padding: 20px 0px;
+    border-top: 1px solid $white-shade;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.3s;
+    transition-property: all;
+
+    &:hover {
+      color: $hover-click-effect;
+    }
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+.module-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.module-content {
+  background-color: white;
+  padding: 25px;
+  width: 585px;
+  height: 420px;
+  border-radius: 2.5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  i {
+    cursor: pointer;
+    margin-left: auto;
+    font-size: 25px;
+    color: gray;
+  }
+
+  &__header {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  &__icons {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  &__icon {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+}
+
+#module-content__email {
+  width: 330px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#module-content__password {
+  width: 330px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.module-content__button {
+  color: white;
+  background-color: black;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.module-content__forgotpass {
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.module-content__signup {
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.cart-content {
+  height: 100vh;
+  width: 440px;
+  background-color: white;
+  margin-left: auto;
+
+  &__c1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid lightgray;
+    padding: 35px 25px;
+    align-items: center;
+  }
+
+  &__paragraph {
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 22px;
+  }
+
+  &__close {
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+  }
+
+  &__paragraph2 {
+    font-size: 15px;
+    color: gray;
+    font-family: monospace;
+    padding: 10px 25px;
+    border-bottom: 0.5px solid lightgray;
+  }
+
+  &__products {
+    gap: 25px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px 30px;
+    border-bottom: 0.5px solid lightgray;
+    overflow: auto;
+  }
+
+  &__product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__product-name {
+    font-family: Roboto;
+    margin-bottom: 15px;
+  }
+
+  &__product-price {
+    color: gray;
+    margin-bottom: 25px;
+  }
+
+  &__product-image {
+    width: 130px;
+    height: 180px;
+  }
+
+  &__increase-decrease {
+    border: 0.5px solid lightgray;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+
+    b {
+      cursor: pointer;
+      color: lightgray;
+      font-size: 15px;
+    }
+  }
+
+  &__remove {
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+
+    &:hover {
+      border-bottom: 0.1px solid gray;
+    }
+  }
+
+  &__footer {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__ordernote {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  &__shipping {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: gray;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    padding: 13px 30px;
+    cursor: pointer;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 0px;
+    background-color: lightpink;
+    color: white;
+    letter-spacing: 2mm;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+    &:hover {
+      background-color: white;
+      border: 1px solid lightpink;
+      color: lightpink;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+@import "../utils/variables";
+
+.best-sellers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 190px;
+
+  &__header {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  }
+
+  &__links-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition-duration: 0.3s;
+    transition-property: color;
+
+    &:hover {
+      color: $hover-click-effect;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  &__products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__products {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+
+    &__isSale {
+      position: absolute;
+      text-transform: uppercase;
+      top: 20px;
+      left: 0;
+      background-color: black;
+      color: white;
+      padding: 5px 10px;
+    }
+
+    &__image {
+      width: 268px;
+      height: 350px;
+    }
+
+    &__fullname {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    &__type-price {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__type {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+
+    &__price {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      color: black;
+    }
+  }
+}
